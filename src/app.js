@@ -17,6 +17,7 @@ class App {
      this.routes(); 
   }
 
+
   middlewares() {
     this.app.use(express.json());
   

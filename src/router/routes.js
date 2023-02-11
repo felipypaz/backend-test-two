@@ -27,6 +27,7 @@ routes.get("/:id", async (req, res) => {
 
 routes.patch("/:id", async (req, res) => {
   const id = req.params.id;
+  console.log(id);
   const {
     name,
     abv,
